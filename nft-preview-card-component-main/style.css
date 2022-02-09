@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    width: 20%;
+    min-width: 290px;
+    padding: 1.25em;
+    box-shadow: 0px 3px 3px 2px hsla(0, 0%, 0%, 0.226);
+    margin-top: 2.5%;
+}
+
+.nft-card-img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.hidden-view {
+    position: absolute;
+    top: 29%;
+    left: 48.5%;
+    opacity: 0;
+}
+
+.card-description{
+
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nft-time-remaing{
+    display: flex;
+    align-items: center;
+    color: hsl(216, 19%, 52%);
+}
+
+.icon {
+    padding-right: 0.3em;
+}
+.card-infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.creator {
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.creator-avatar {
+    width: 32px;
+    height: 32px;
+    border: #ffffff 1px solid;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.creator-name {
+    color: hsl(215, 51%, 70%);
+    margin-right: 4px;
+}
+
+#nft-img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+#nft-img:hover {
+    background-color: hsla(178, 100%, 50%, 0.493);
+
+}
+.nft-card-name {
+    text-align: left;
+    font-size: 15pt;
+    color: #e7e6e6;
+}
+
+ .nft-name-id:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 1em;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
